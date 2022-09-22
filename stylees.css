@@ -245,3 +245,24 @@ z-index: 2;
     transform: scale(1.07);
     filter: blur(5px);
 }
+
+.project__list {
+    padding-top: 40px;
+}
+
+.project__description {
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(-50%);
+    max-width: 550px;
+    z-index: 3;
+}
+
+.projection__description--title,
+.projection__description--sub--title,
+.projection__description--para,
+.projection__description--links {
+    text-align: left;
+    color: #fff;
+}
