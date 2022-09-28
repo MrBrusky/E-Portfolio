@@ -64,7 +64,7 @@ li {
     flex: 1;
 }
 
-.container{
+.container {
     padding: 50px 0;
     width: 100%;
     max-width: 800px;
@@ -96,7 +96,8 @@ nav {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    display: flex;justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0 12px;
 }
@@ -148,14 +149,14 @@ nav {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    max-width: 600px;
     align-items: center;
     text-align: center;
 }
 
 .about--me__picture--mask {
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
